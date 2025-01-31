@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::view-transition-old(root),
+
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.toast-position {
+    top: 7rem !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track {    
+    background-color: #7498bb
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(148, 148, 148);    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(108, 108, 108);
+}
